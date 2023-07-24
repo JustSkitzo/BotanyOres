@@ -9,12 +9,23 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.skitzo.botanyores.BotanyOres;
+import net.skitzo.botanyores.block.ModBlocks;
 
 public class ModItems {
     public static final Item TESTITEM = registerItem("testitem", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(TESTITEM);
+        entries.add(ModBlocks.COAL_SOIL);
+        entries.add(ModBlocks.IRON_SOIL);
+        entries.add(ModBlocks.LAPIS_SOIL);
+        entries.add(ModBlocks.COPPER_SOIL);
+        entries.add(ModBlocks.GOLD_SOIL);
+        entries.add(ModBlocks.REDSTONE_SOIL);
+        entries.add(ModBlocks.EMERALD_SOIL);
+        entries.add(ModBlocks.DIAMOND_SOIL);
+        entries.add(ModBlocks.NETHERITE_SOIL);
+        entries.add(ModBlocks.CREATIVE_SOIL);
     }
 
     private static Item registerItem(String name, Item item) {
