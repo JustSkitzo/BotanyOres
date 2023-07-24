@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "OOO",
+    "ODO",
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:copper_ingot"
+    },
+    "D": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "botanyores:copper_soil"
+  }
+}
