@@ -16,6 +16,9 @@ public class ModItems {
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(TESTITEM);
+    }
+
+    private static void addItemsToNaturalItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModBlocks.COAL_SOIL);
         entries.add(ModBlocks.IRON_SOIL);
         entries.add(ModBlocks.LAPIS_SOIL);
@@ -28,11 +31,13 @@ public class ModItems {
         entries.add(ModBlocks.CREATIVE_SOIL);
     }
 
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BotanyOres.MOD_ID, name), item);
     }
     public static void registerModItems() {
         BotanyOres.LOGGER.info("Registering Mod Items for " + BotanyOres.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(ModItems::addItemsToNaturalItemGroup);
     }
 }
