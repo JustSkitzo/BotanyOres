@@ -1,0 +1,13 @@
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "botanyores:emerald_soil"
+  },
+  "display": {
+    "block": "botanyores:emerald_soil"
+  },
+  "categories": [
+    "oreT3"
+  ],
+  "growthModifier": 3
+}

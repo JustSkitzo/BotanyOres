@@ -1,0 +1,13 @@
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "botanyores:copper_soil"
+  },
+  "display": {
+    "block": "botanyores:copper_soil"
+  },
+  "categories": [
+    "oreT2"
+  ],
+  "growthModifier": 2
+}

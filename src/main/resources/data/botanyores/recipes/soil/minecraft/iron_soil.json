@@ -1,0 +1,13 @@
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "botanyores:iron_soil"
+  },
+  "display": {
+    "block": "botanyores:iron_soil"
+  },
+  "categories": [
+    "oreT2"
+  ],
+  "growthModifier": 2
+}

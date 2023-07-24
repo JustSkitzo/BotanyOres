@@ -1,0 +1,16 @@
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "botanyores:creative_soil"
+  },
+  "display": {
+    "block": "botanyores:creative_soil"
+  },
+  "categories": [
+    "oreT1",
+    "oreT2",
+    "oreT3",
+    "oreT4"
+  ],
+  "growthModifier": 10
+}

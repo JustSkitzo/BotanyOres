@@ -1,0 +1,13 @@
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "botanyores:redstone_soil"
+  },
+  "display": {
+    "block": "botanyores:redstone_soil"
+  },
+  "categories": [
+    "oreT3"
+  ],
+  "growthModifier": 3
+}

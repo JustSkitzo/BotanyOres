@@ -1,0 +1,13 @@
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "botanyores:gold_soil"
+  },
+  "display": {
+    "block": "botanyores:gold_soil"
+  },
+  "categories": [
+    "oreT3"
+  ],
+  "growthModifier": 3
+}

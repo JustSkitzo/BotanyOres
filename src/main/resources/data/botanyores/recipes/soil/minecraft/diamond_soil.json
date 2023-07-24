@@ -1,0 +1,13 @@
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "botanyores:diamond_soil"
+  },
+  "display": {
+    "block": "botanyores:diamond_soil"
+  },
+  "categories": [
+    "oreT4"
+  ],
+  "growthModifier": 4
+}

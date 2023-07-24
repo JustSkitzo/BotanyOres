@@ -1,0 +1,13 @@
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "botanyores:netherite_soil"
+  },
+  "display": {
+    "block": "botanyores:netherite_soil"
+  },
+  "categories": [
+    "oreT4"
+  ],
+  "growthModifier": 4
+}

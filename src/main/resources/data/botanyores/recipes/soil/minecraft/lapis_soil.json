@@ -1,0 +1,13 @@
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "botanyores:lapis_soil"
+  },
+  "display": {
+    "block": "botanyores:lapis_soil"
+  },
+  "categories": [
+    "oreT2"
+  ],
+  "growthModifier": 2
+}
