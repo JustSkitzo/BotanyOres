@@ -7,7 +7,11 @@
     "block": "botanyores:netherite_soil"
   },
   "categories": [
-    "oreT4"
+    "oreT1",
+    "oreT2",
+    "oreT3",
+    "oreT4",
+    "oreT5"
   ],
-  "growthModifier": 4
+  "growthModifier": 5
 }

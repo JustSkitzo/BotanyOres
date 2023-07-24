@@ -7,6 +7,9 @@
     "block": "botanyores:diamond_soil"
   },
   "categories": [
+    "oreT1",
+    "oreT2",
+    "oreT3",
     "oreT4"
   ],
   "growthModifier": 4

@@ -7,6 +7,7 @@
     "block": "botanyores:iron_soil"
   },
   "categories": [
+    "oreT1",
     "oreT2"
   ],
   "growthModifier": 2
