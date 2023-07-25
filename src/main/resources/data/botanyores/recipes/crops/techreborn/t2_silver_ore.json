@@ -1,0 +1,43 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "techreborn:silver_ore",
+        "techreborn:raw_silver"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "techreborn:silver_ore"
+  },
+  "categories": [
+    "oreT2",
+    "oreT3",
+    "oreT4"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "techreborn:silver_ore"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "techreborn:raw_silver"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "techreborn:raw_silver"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}

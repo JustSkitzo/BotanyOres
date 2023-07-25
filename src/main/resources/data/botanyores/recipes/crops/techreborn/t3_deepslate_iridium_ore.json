@@ -1,0 +1,42 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "techreborn:deepslate_iridium_ore",
+        "techreborn:raw_iridium"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "techreborn:deepslate_iridium_ore"
+  },
+  "categories": [
+    "oreT3",
+    "oreT4"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "techreborn:deepslate_iridium_ore"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "techreborn:raw_iridium"
+      },
+      "minRolls": 1,
+      "maxRolls": 3
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "techreborn:raw_iridium"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}

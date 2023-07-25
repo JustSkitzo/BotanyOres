@@ -1,0 +1,42 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "techreborn:peridot_ore",
+        "techreborn:peridot_gem"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "techreborn:peridot_ore"
+  },
+  "categories": [
+    "oreT3",
+    "oreT4"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "techreborn:peridot_ore"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "techreborn:peridot_gem"
+      },
+      "minRolls": 1,
+      "maxRolls": 3
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "techreborn:peridot_gem"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}

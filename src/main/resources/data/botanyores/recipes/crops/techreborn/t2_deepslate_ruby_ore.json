@@ -1,0 +1,44 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "techreborn:deepslate_ruby_ore",
+        "techreborn:ruby_gem",
+        "techreborn:red_garnet_gem"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "techreborn:deepslate_ruby_ore"
+  },
+  "categories": [
+    "oreT2",
+    "oreT3",
+    "oreT4"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "techreborn:deepslate_ruby_ore"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "techreborn:ruby_gem"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.75,
+      "output": {
+        "item": "techreborn:red_garnet_gem"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}

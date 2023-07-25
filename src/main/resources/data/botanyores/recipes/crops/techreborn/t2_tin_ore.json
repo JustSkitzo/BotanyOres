@@ -1,0 +1,43 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "techreborn:tin_ore",
+        "techreborn:raw_tin"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "techreborn:tin_ore"
+  },
+  "categories": [
+    "oreT2",
+    "oreT3",
+    "oreT4"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "techreborn:tin_ore"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "techreborn:raw_tin"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "techreborn:raw_tin"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}

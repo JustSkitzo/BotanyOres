@@ -1,0 +1,43 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "techreborn:deepslate_tungsten_ore",
+        "techreborn:raw_tungsten",
+        "techreborn:tungsten_small_dust"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "techreborn:deepslate_tungsten_ore"
+  },
+  "categories": [
+    "oreT3",
+    "oreT4"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "techreborn:deepslate_tungsten_ore"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "techreborn:raw_tungsten"
+      },
+      "minRolls": 1,
+      "maxRolls": 3
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "techreborn:tungsten_small_dust"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}

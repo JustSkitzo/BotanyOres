@@ -1,0 +1,44 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "techreborn:deepslate_sapphire_ore",
+        "techreborn:sapphire_gem",
+        "techreborn:peridot_gem"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "techreborn:deepslate_sapphire_ore"
+  },
+  "categories": [
+    "oreT2",
+    "oreT3",
+    "oreT4"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "techreborn:deepslate_sapphire_ore"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "techreborn:sapphire_gem"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.75,
+      "output": {
+        "item": "techreborn:peridot_gem"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}
