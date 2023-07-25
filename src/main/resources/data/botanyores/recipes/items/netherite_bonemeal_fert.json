@@ -1,0 +1,8 @@
+{
+  "type": "botanypots:fertilizer",
+  "ingredient": {
+    "item": "botanyores:netherite_bonemeal"
+  },
+  "min_growth": 800,
+  "max_growth": 1100
+}
