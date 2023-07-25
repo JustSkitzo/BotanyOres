@@ -21,11 +21,6 @@ public class ModItems {
     private static void addItemsToNaturalItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModBlocks.COAL_SOIL);
         entries.add(ModBlocks.IRON_SOIL);
-        entries.add(ModBlocks.LAPIS_SOIL);
-        entries.add(ModBlocks.COPPER_SOIL);
-        entries.add(ModBlocks.GOLD_SOIL);
-        entries.add(ModBlocks.REDSTONE_SOIL);
-        entries.add(ModBlocks.EMERALD_SOIL);
         entries.add(ModBlocks.DIAMOND_SOIL);
         entries.add(ModBlocks.NETHERITE_SOIL);
         entries.add(ModBlocks.CREATIVE_SOIL);

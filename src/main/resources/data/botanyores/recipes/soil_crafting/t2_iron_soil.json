@@ -8,13 +8,13 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:iron_block"
     },
     "D": {
       "item": "minecraft:dirt"
     }
   },
   "result": {
-    "item": "botanyores:gold_soil"
+    "item": "botanyores:iron_soil"
   }
 }

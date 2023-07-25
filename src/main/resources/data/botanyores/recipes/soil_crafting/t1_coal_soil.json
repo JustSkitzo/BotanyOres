@@ -8,13 +8,13 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:netherite_ingot"
+      "item": "minecraft:coal_block"
     },
     "D": {
       "item": "minecraft:dirt"
     }
   },
   "result": {
-    "item": "botanyores:netherite_soil"
+    "item": "botanyores:coal_soil"
   }
 }

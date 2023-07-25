@@ -17,16 +17,6 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
     public static final Block IRON_SOIL = registerBlock("iron_soil",
             new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
-    public static final Block LAPIS_SOIL = registerBlock("lapis_soil",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
-    public static final Block COPPER_SOIL = registerBlock("copper_soil",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
-    public static final Block GOLD_SOIL = registerBlock("gold_soil",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
-    public static final Block REDSTONE_SOIL = registerBlock("redstone_soil",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
-    public static final Block EMERALD_SOIL = registerBlock("emerald_soil",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
     public static final Block DIAMOND_SOIL = registerBlock("diamond_soil",
             new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
     public static final Block NETHERITE_SOIL = registerBlock("netherite_soil",

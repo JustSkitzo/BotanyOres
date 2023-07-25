@@ -1,32 +1,35 @@
 {
   "type": "botanypots:crop",
   "seed": {
-    "item": "minecraft:diamond_ore"
+    "item": "minecraft:copper_ore"
   },
   "categories": [
+    "oreT1",
+    "oreT2",
+    "oreT3",
     "oreT4"
   ],
   "growthTicks": 1200,
   "display": {
     "type": "botanypots:aging",
-    "block": "minecraft:diamond_ore"
+    "block": "minecraft:copper_ore"
   },
   "drops": [
     {
       "chance": 1.00,
       "output": {
-        "item": "minecraft:diamond"
+        "item": "minecraft:raw_copper"
       },
-      "minRolls": 1,
-      "maxRolls": 4
+      "minRolls": 2,
+      "maxRolls": 5
     },
     {
       "chance": 0.15,
       "output": {
-        "item": "minecraft:emerald"
+        "item": "minecraft:raw_copper"
       },
-      "minRolls": 1,
-      "maxRolls": 2
+      "minRolls": 2,
+      "maxRolls": 3
     }
   ]
 }

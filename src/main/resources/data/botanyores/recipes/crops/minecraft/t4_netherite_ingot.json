@@ -1,34 +1,32 @@
 {
   "type": "botanypots:crop",
   "seed": {
-    "item": "minecraft:iron_ore"
+    "item": "minecraft:netherite_ingot"
   },
   "categories": [
-    "oreT2",
-    "oreT3",
     "oreT4"
   ],
   "growthTicks": 1200,
   "display": {
     "type": "botanypots:aging",
-    "block": "minecraft:iron_ore"
+    "block": "minecraft:ancient_debris"
   },
   "drops": [
     {
       "chance": 1.00,
       "output": {
-        "item": "minecraft:raw_iron"
+        "item": "minecraft:netherite_scrap"
       },
-      "minRolls": 2,
-      "maxRolls": 3
+      "minRolls": 1,
+      "maxRolls": 1
     },
     {
       "chance": 0.15,
       "output": {
-        "item": "minecraft:raw_iron"
+        "item": "minecraft:netherite_scrap"
       },
       "minRolls": 1,
-      "maxRolls": 2
+      "maxRolls": 1
     }
   ]
 }

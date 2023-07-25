@@ -1,33 +1,32 @@
 {
   "type": "botanypots:crop",
   "seed": {
-    "item": "minecraft:redstone_ore"
+    "item": "minecraft:obsidian"
   },
   "categories": [
-    "oreT3",
     "oreT4"
   ],
   "growthTicks": 1200,
   "display": {
     "type": "botanypots:aging",
-    "block": "minecraft:redstone_ore"
+    "block": "minecraft:obsidian"
   },
   "drops": [
     {
       "chance": 1.00,
       "output": {
-        "item": "minecraft:redstone"
+        "item": "minecraft:obsidian"
       },
-      "minRolls": 4,
-      "maxRolls": 9
+      "minRolls": 1,
+      "maxRolls": 2
     },
     {
       "chance": 0.15,
       "output": {
-        "item": "minecraft:redstone"
+        "item": "minecraft:obsidian"
       },
-      "minRolls": 4,
-      "maxRolls": 5
+      "minRolls": 1,
+      "maxRolls": 1
     }
   ]
 }
