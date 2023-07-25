@@ -1,0 +1,35 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "minecraft:deepslate_copper_ore"
+  },
+  "categories": [
+    "oreT1",
+    "oreT2",
+    "oreT3",
+    "oreT4"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "minecraft:deepslate_copper_ore"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "minecraft:raw_copper"
+      },
+      "minRolls": 2,
+      "maxRolls": 5
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "minecraft:raw_copper"
+      },
+      "minRolls": 2,
+      "maxRolls": 3
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "minecraft:deepslate_emerald_ore"
+  },
+  "categories": [
+    "oreT3",
+    "oreT4"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "minecraft:deepslate_emerald_ore"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "minecraft:emerald"
+      },
+      "minRolls": 1,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "minecraft:emerald"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}

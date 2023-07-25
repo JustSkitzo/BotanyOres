@@ -1,0 +1,34 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "minecraft:deepslate_redstone_ore"
+  },
+  "categories": [
+    "oreT2",
+    "oreT3",
+    "oreT4"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "minecraft:deepslate_redstone_ore"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "minecraft:deepslate_redstone"
+      },
+      "minRolls": 4,
+      "maxRolls": 9
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "minecraft:redstone"
+      },
+      "minRolls": 4,
+      "maxRolls": 5
+    }
+  ]
+}

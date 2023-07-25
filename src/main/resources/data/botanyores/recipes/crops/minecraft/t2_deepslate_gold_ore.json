@@ -1,0 +1,34 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "minecraft:deepslate_gold_ore"
+  },
+  "categories": [
+    "oreT2",
+    "oreT3",
+    "oreT4"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "minecraft:deepslate_gold_ore"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "minecraft:raw_gold"
+      },
+      "minRolls": 1,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "minecraft:raw_gold"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}
