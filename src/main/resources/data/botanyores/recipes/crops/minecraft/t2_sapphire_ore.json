@@ -1,29 +1,31 @@
 {
   "type": "botanypots:crop",
   "seed": {
-    "item": "minecraft:netherite_ingot"
+    "item": "techreborn:sapphire_ore"
   },
   "categories": [
+    "oreT2",
+    "oreT3",
     "oreT4"
   ],
   "growthTicks": 1200,
   "display": {
     "type": "botanypots:aging",
-    "block": "minecraft:ancient_debris"
+    "block": "techreborn:sapphire_ore"
   },
   "drops": [
     {
       "chance": 1.00,
       "output": {
-        "item": "minecraft:netherite_ingot"
+        "item": "techreborn:sapphire_gem"
       },
       "minRolls": 1,
       "maxRolls": 2
     },
     {
-      "chance": 0.15,
+      "chance": 0.75,
       "output": {
-        "item": "minecraft:netherite_ingot"
+        "item": "techreborn:peridot_gem"
       },
       "minRolls": 1,
       "maxRolls": 2

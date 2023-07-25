@@ -1,29 +1,30 @@
 {
   "type": "botanypots:crop",
   "seed": {
-    "item": "minecraft:netherite_ingot"
+    "item": "techreborn:tungsten_ore"
   },
   "categories": [
+    "oreT3",
     "oreT4"
   ],
   "growthTicks": 1200,
   "display": {
     "type": "botanypots:aging",
-    "block": "minecraft:ancient_debris"
+    "block": "techreborn:tungsten_ore"
   },
   "drops": [
     {
       "chance": 1.00,
       "output": {
-        "item": "minecraft:netherite_ingot"
+        "item": "techreborn:raw_tungsten"
       },
       "minRolls": 1,
-      "maxRolls": 2
+      "maxRolls": 3
     },
     {
       "chance": 0.15,
       "output": {
-        "item": "minecraft:netherite_ingot"
+        "item": "techreborn:tungsten_small_dust"
       },
       "minRolls": 1,
       "maxRolls": 2

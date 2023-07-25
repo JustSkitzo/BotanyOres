@@ -1,29 +1,31 @@
 {
   "type": "botanypots:crop",
   "seed": {
-    "item": "minecraft:netherite_ingot"
+    "item": "techreborn:ruby_ore"
   },
   "categories": [
+    "oreT2",
+    "oreT3",
     "oreT4"
   ],
   "growthTicks": 1200,
   "display": {
     "type": "botanypots:aging",
-    "block": "minecraft:ancient_debris"
+    "block": "techreborn:ruby_ore"
   },
   "drops": [
     {
       "chance": 1.00,
       "output": {
-        "item": "minecraft:netherite_ingot"
+        "item": "techreborn:ruby_gem"
       },
       "minRolls": 1,
       "maxRolls": 2
     },
     {
-      "chance": 0.15,
+      "chance": 0.75,
       "output": {
-        "item": "minecraft:netherite_ingot"
+        "item": "techreborn:red_garnet_gem"
       },
       "minRolls": 1,
       "maxRolls": 2

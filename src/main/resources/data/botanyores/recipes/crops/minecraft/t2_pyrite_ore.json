@@ -1,21 +1,23 @@
 {
   "type": "botanypots:crop",
   "seed": {
-    "item": "minecraft:netherite_ingot"
+    "item": "techreborn:pyrite_ore"
   },
   "categories": [
+    "oreT2",
+    "oreT3",
     "oreT4"
   ],
   "growthTicks": 1200,
   "display": {
     "type": "botanypots:aging",
-    "block": "minecraft:ancient_debris"
+    "block": "techreborn:pyrite_ore"
   },
   "drops": [
     {
       "chance": 1.00,
       "output": {
-        "item": "minecraft:netherite_ingot"
+        "item": "techreborn:pyrite_dust"
       },
       "minRolls": 1,
       "maxRolls": 2
@@ -23,7 +25,7 @@
     {
       "chance": 0.15,
       "output": {
-        "item": "minecraft:netherite_ingot"
+        "item": "techreborn:pyrite_dust"
       },
       "minRolls": 1,
       "maxRolls": 2
