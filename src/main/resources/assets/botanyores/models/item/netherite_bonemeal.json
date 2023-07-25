@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "botanyores:item/testitem"
+    "layer0": "botanyores:item/netherite_bonemeal"
   }
 }

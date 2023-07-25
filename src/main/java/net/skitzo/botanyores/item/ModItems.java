@@ -12,10 +12,10 @@ import net.skitzo.botanyores.BotanyOres;
 import net.skitzo.botanyores.block.ModBlocks;
 
 public class ModItems {
-    public static final Item TESTITEM = registerItem("testitem", new Item(new FabricItemSettings()));
+    public static final Item NETHERITE_BONEMEAL = registerItem("netherite_bonemeal", new Item(new FabricItemSettings()));
 
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(TESTITEM);
+    private static void addItemsToToolItemGroup(FabricItemGroupEntries entries) {
+        entries.add(NETHERITE_BONEMEAL);
     }
 
     private static void addItemsToNaturalItemGroup(FabricItemGroupEntries entries) {
@@ -32,7 +32,7 @@ public class ModItems {
     }
     public static void registerModItems() {
         BotanyOres.LOGGER.info("Registering Mod Items for " + BotanyOres.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemsToToolItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(ModItems::addItemsToNaturalItemGroup);
     }
 }
