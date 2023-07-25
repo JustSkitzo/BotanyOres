@@ -7,7 +7,8 @@
     "block": "botanyores:coal_soil"
   },
   "categories": [
-    "oreT1"
+    "oreT1",
+    "dirt"
   ],
   "growthModifier": 2.5
 }
