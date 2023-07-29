@@ -17,7 +17,7 @@
     {
       "chance": 1.00,
       "output": {
-        "item": "minecraft:deepslate_redstone"
+        "item": "minecraft:redstone"
       },
       "minRolls": 4,
       "maxRolls": 9
