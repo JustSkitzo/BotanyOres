@@ -1,0 +1,34 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "minecraft:glowstone_dust"
+  },
+  "categories": [
+    "oreT2",
+    "oreT3",
+    "oreT4"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "minecraft:glowstone"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}
