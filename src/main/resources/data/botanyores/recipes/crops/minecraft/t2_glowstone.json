@@ -17,7 +17,7 @@
     {
       "chance": 1.00,
       "output": {
-        "item": "minecraft:lapis_lazuli"
+        "item": "minecraft:glowstone_dust"
       },
       "minRolls": 2,
       "maxRolls": 4
@@ -25,7 +25,7 @@
     {
       "chance": 0.15,
       "output": {
-        "item": "minecraft:lapis_lazuli"
+        "item": "minecraft:glowstone_dust"
       },
       "minRolls": 1,
       "maxRolls": 2
