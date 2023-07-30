@@ -26,15 +26,15 @@
     {
       "chance": 1.00,
       "output": {
-        "item": "techreborn:platinum_ingot"
+        "item": "techreborn:platinum_dust"
       },
       "minRolls": 1,
-      "maxRolls": 2
+      "maxRolls": 3
     },
     {
       "chance": 0.15,
       "output": {
-        "item": "techreborn:platinum_dust"
+        "item": "techreborn:platinum_ingot"
       },
       "minRolls": 1,
       "maxRolls": 2
